@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
   <el-container>
 	  <el-button type="info" ><router-link to="/">返回</router-link></el-button>
@@ -178,3 +179,27 @@ export default {
 	  color: white;
   }
 </style>
+=======
+<template>
+	<div class="vertical">
+		<h1>{{ title }}</h1>
+		<section class="one">
+			<p>1.</p>
+		</section>
+	</div>
+</template>
+
+<script>
+	export default {
+		data () {
+			return {
+				title: '垂直居中模块'
+			}
+		}
+	}
+</script>
+
+<style scoped>
+	
+</style>
+>>>>>>> 22454c44f461832fff12762a2ef045953abb7a56

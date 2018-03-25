@@ -5,7 +5,7 @@
             <el-col :span="24"><router-link class="grid-content bg-purple-dark" to="/vertical">垂直居中</router-link></el-col>
         </el-row>
         <el-row>
-            <el-col :span="24"><router-link class="grid-content bg-purple-dark" to="/">炫丽样式</router-link></el-col>
+            <el-col :span="24"><router-link class="grid-content bg-purple-dark" to="/SaveRight">固定右边使左边自适应</router-link></el-col>
         </el-row>
     </article>
 </template>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
   <el-container>
 	  <el-button type="info" ><router-link to="/">返回</router-link></el-button>
@@ -71,6 +70,32 @@
             <div class="content">
               <h4>4.模拟表格</h4>
               <p>这里需要三层结构，具体居中的是 table-cell 中的内容</p>
+              <pre>
+    .center04 {
+      display: table;
+      
+    }
+    .center04son {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
+              </pre>
+            </div>
+          </el-card>
+        </el-col>
+      </el-row>
+      <el-row>
+        <el-col :span="12">
+          <el-card>
+            <div class="box center05">
+              <div class="item">
+                
+              </div>
+            </div>
+            <div class="content">
+              <h4>5.4 零魔法</h4>
+              <p>4 零绝对定位加margin：auto</p>
               <pre>
     .center04 {
       display: table;
@@ -178,28 +203,18 @@ export default {
 	  display: block;
 	  color: white;
   }
-</style>
-=======
-<template>
-	<div class="vertical">
-		<h1>{{ title }}</h1>
-		<section class="one">
-			<p>1.</p>
-		</section>
-	</div>
-</template>
 
-<script>
-	export default {
-		data () {
-			return {
-				title: '垂直居中模块'
-			}
-		}
-	}
-</script>
+  .center05 {
+    position: relative;
+  }
+  .center05 .item {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
 
-<style scoped>
-	
+  
 </style>
->>>>>>> 22454c44f461832fff12762a2ef045953abb7a56
